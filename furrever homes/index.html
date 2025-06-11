@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurrEver Homes</title>
+    <link rel="stylesheet" href="assests/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Raleway:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Raleway:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">FurrEver Homes</div>
+
+        <div class="hamburger">`
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="#home" class="active">HOME</a>
+                </li>
+                <li>
+                    <a href="#services">SERVICES </a>
+                </li>
+                <li>
+                    <a href="ecommerce.html" target="_blank">SHOP</a>
+                </li>
+                <li>
+                    <a href="#blogs">BLOGS</a>
+                </li>
+                <li>
+                    <a href="#contacts">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="home" class="container-fluid">
+        <div class="full-background"></div>
+        <div class="content-container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card-main">
+                        <img src="http://nebula.wsimg.com/c663e1704145aa84705ed216afa0fa87?AccessKeyId=2BF13AA9729EE9232F5F&disposition=0&alloworigin=1"
+                            alt="Dog for Adoption">
+                        <h2>ADOPT</h2>
+                        <p>Find your perfect companion and give a loving pet a forever home.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card-main">
+                        <img src="http://nebula.wsimg.com/af6f19e4ccb77a4ccfba7e26c8bc5eef?AccessKeyId=2BF13AA9729EE9232F5F&disposition=0&alloworigin=1"
+                            alt="Cat for Fostering">
+                        <h2>FOSTER</h2>
+                        <p>Provide temporary care and love to pets in need until they find their forever homes.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card-main">
+                        <img src="http://nebula.wsimg.com/673b27c5e69b61d01d2848aad39dbc8f?AccessKeyId=2BF13AA9729EE9232F5F&disposition=0&alloworigin=1"
+                            alt="Dog for Donation">
+                        <h2>DONATE</h2>
+                        <p>Support our mission by donating to help rescue and care for animals in need.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card-main">
+                        <img src="http://media1.popsugar-assets.com/files/2015/07/21/744/n/1922398/6602fb56_homedepot.xxxlarge_2x.jpg"
+                            alt="Shop Icon">
+                        <h2>SHOP</h2>
+                        <p>Purchase pet essentials and help support our rescue efforts with every purchase.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <section id="services" class="services-section">
+
+        <h1>OUR SERVICES</h1>
+
+        <div class="services">
+            <div class="service">
+                <div class="image-wrapper">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWv-6bdxGv_4GDqSuwxsU3Iu_vK6gOkkOIYg&s"
+                        alt="Pet Adoption Icon">
+                </div>
+                <div class="service-title">Pet Adoption</div>
+                <div class="service-description">Find a new friend and give a pet a forever home!</div>
+                <input type="checkbox" id="toggle-adoption" class="form-toggle-checkbox">
+                <label for="toggle-adoption" class="form-toggle-btn">Adopt a Pet</label>
+                <div id="adoption-form" class="hidden-form">
+                    <form>
+                        <h3>Adopt a Pet</h3>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="address" required>
+
+                        <label for="contact">Contact Number:</label>
+                        <input type="tel" id="contact" name="contact" required>
+
+                        <label for="animal">Which animal would you like to adopt?</label>
+                        <input type="text" id="animal" name="animal" required>
+                        <h3>Choose Your Pet</h3>
+                        <div style="display: inline-block;">
+                            <label style="display: inline-block; margin-right: 10px;">
+                                <input type="checkbox" name="DOGS">
+                                DOGS
+                            </label>
+                            <label style="display: inline-block; margin-right: 10px;">
+                                <input type="checkbox" name="CATS">
+                                CATS
+                            </label>
+                            <label style="display: inline-block; margin-right: 10px;">
+                                <input type="checkbox" name="OTHERS">
+                                OTHERS
+                            </label>
+                        </div>
+
+
+
+                        <label>
+                            <input type="radio" name="terms-adopt" required>
+                            I agree to the terms and conditions.
+                        </label>
+
+
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="image-wrapper">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-JqpX-0hJgljebgCB2EhVSh2FQ2Uxt5ymbg&s"
+                        alt="Connect with NGO Icon">
+                </div>
+                <div class="service-title">Connect with NGOs</div>
+                <div class="service-description">Partner with local NGOs to support animal welfare.</div>
+                <input type="checkbox" id="toggle-ngo" class="form-toggle-checkbox">
+                <label for="toggle-ngo" class="form-toggle-btn">Connect with NGOs</label>
+                <div class="hidden-form" id="ngo-form">
+                    <form>
+                        <h3>Connect with NGOs</h3>
+                        <label for="name-ngo">Name:</label>
+                        <input type="text" id="name-ngo" name="name" required>
+
+                        <label for="address-ngo">Address:</label>
+                        <input type="text" id="address-ngo" name="address" required>
+
+                        <label for="contact-ngo">Contact Number:</label>
+                        <input type="tel" id="contact-ngo" name="contact" required>
+
+                        <label for="found">Where have you found the animal?</label>
+                        <input type="text" id="found" name="found" required>
+
+                        <label for="animal-condition">Which NGO you want to associate with?</label>
+                        <input type="text" id="animal-condition" name="animal-condition" required>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="image-wrapper">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgw4IT4lM1CxPjYwiCGQZZDUwnLLE4CLMH6G2NZ0R0B3XGX1rZ61xvPcRNc2OGk3yXRrQ&usqp=CAU"
+                        alt="Medical Care Icon">
+                </div>
+                <div class="service-title">Medical Care for Pets</div>
+                <div class="service-description">Access top-quality medical care for your pets.</div>
+                <input type="checkbox" id="toggle-medical" class="form-toggle-checkbox">
+                <label for="toggle-medical" class="form-toggle-btn">Request Medical Care</label>
+                <div class="hidden-form" id="medical-form">
+                    <form>
+                        <h3>Request Medical Care</h3>
+                        <label for="name-medical">Name:</label>
+                        <input type="text" id="name-medical" name="name" required>
+
+                        <label for="address-medical">Address:</label>
+                        <input type="text" id="address-medical" name="address" required>
+
+                        <label for="contact-medical">Contact Number:</label>
+                        <input type="tel" id="contact-medical" name="contact" required>
+
+                        <label for="animal-condition-medical">Describe the animal's medical condition:</label>
+                        <textarea id="animal-condition-medical" name="animal-condition" required></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+
+                </div>
+            </div>
+
+    </section>
+
+
+    <section id="blogs" class="blogs-section">
+        <h1>Animal Blogs</h1>
+        <div class="blog">
+            <h2>Understanding Your Pet's Behavior</h2>
+            <p>Learn how to better understand and respond to your pet's behavior with our expert tips and advice.</p>
+        </div>
+        <div class="blog">
+            <h2>Top 10 Dog Breeds for Families</h2>
+            <p>Discover the best dog breeds that fit perfectly into family life.</p>
+        </div>
+        <div class="blog">
+            <h2>How to Care for a Senior Cat</h2>
+            <p>As your feline friend ages, their care needs change. Learn how to keep them happy and healthy in their
+                senior years.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div id="contacts" class="footer-content">
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p>Email: contact@furreverhomes.com</p>
+                <p>Phone: +1-800-123-4567</p>
+                <p>Address: 123 Pet Lane, Animal City, AN 12345</p>
+            </div>
+            <div class="social-media">
+                <h2>Follow Us</h2>
+                <a href="https://facebook.com/FurrEverHomes" target="_blank">Facebook</a>
+                <a href="https://twitter.com/FurrEverHomes" target="_blank">Twitter</a>
+                <a href="https://instagram.com/FurrEverHomes" target="_blank">Instagram</a>
+                <a href="https://linkedin.com/company/furreverhomes" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+
+    </footer>
+    <script>
+        const cartItems = [];
+
+        function addToCart(item) {
+            cartItems.push(item);
+            displayCartItems();
+        }
+
+        function displayCartItems() {
+            const cartItemsContainer = document.getElementById('cart-items');
+            cartItemsContainer.innerHTML = '';
+
+            cartItems.forEach((item, index) => {
+                const listItem = document.createElement('li');
+                listItem.textContent = item;
+                const removeBtn = document.createElement('button');
+                removeBtn.textContent = 'Remove';
+                removeBtn.style.marginLeft = '10px';
+                removeBtn.onclick = () => removeFromCart(index);
+                listItem.appendChild(removeBtn);
+                cartItemsContainer.appendChild(listItem);
+            });
+        }
+
+        function removeFromCart(index) {
+            cartItems.splice(index, 1);
+            displayCartItems();
+        }
+
+        function showCheckoutForm() {
+            const checkoutForm = document.getElementById('checkout-form');
+            checkoutForm.style.display = 'block';
+        }
+
+        const x = setTimeout(() => { console.log("inside Timer") }, 10000)
+        console.log(x)
+    </script>
+
+
+</body>
+
+</html>
